@@ -1,3 +1,3 @@
-function createEmployeeRecord() {
+function createEmployeeRecord(array) {
 
 }
