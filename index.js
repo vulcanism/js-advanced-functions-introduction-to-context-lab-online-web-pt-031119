@@ -47,3 +47,7 @@ function hoursWorkedOnDate(record, givenDate) {
   })
   return (timeOut.hour - timeIn.hour) / 100
 }
+
+function wagesEarnedOnDate(record, givenDate) {
+  
+}
