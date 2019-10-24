@@ -49,5 +49,5 @@ function hoursWorkedOnDate(record, givenDate) {
 }
 
 function wagesEarnedOnDate(record, givenDate) {
-  
+
 }
