@@ -49,5 +49,7 @@ function hoursWorkedOnDate(record, givenDate) {
 }
 
 function wagesEarnedOnDate(record, givenDate) {
-
+  let hoursWorked = hoursWorkedOnDate(record, givenDate)
+  let wageEarned = hoursWorked * record.payPerHour
+  return wageEarned
 }
