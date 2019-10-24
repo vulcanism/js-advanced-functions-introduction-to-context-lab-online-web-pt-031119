@@ -9,3 +9,7 @@ function createEmployeeRecord(array) {
   }
   return employeeRecord;
 }
+
+function createEmployeeRecords(array) {
+
+}
