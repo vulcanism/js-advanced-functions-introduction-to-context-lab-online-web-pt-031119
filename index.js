@@ -21,7 +21,7 @@ function createTimeInEvent(record, dateTime) {
 
   record.timeInEvents.push({
     type: "TimeIn",
-    time: parseInt(hour, 10),
+    time: parseInt(time, 10),
     date: date
   })
   return record
