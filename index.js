@@ -35,5 +35,5 @@ function createTimeOutEvent(record, dateTime) {
     hour: parseInt(hour, 10),
     date: date
   })
-  return record  
+  return record
 }
