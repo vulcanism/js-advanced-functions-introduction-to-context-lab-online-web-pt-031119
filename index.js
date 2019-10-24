@@ -62,6 +62,6 @@ function allWagesFor(record) {
 
 function findEmployeeByFirstName(array, firstName) {
     for (const element of array) {
-       return firstName === element.firstName ? element : undefined  
+       return firstName === element.firstName ? element : undefined
     }
-}   
+}
