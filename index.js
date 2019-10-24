@@ -17,11 +17,11 @@ function createEmployeeRecords(array) {
 }
 
 function createTimeInEvent(record, dateTime) {
-  let [date, time] = dateTime.split(" ")
+  let [date, hour] = dateTime.split(" ")
 
   record.timeInEvents.push({
     type: "TimeIn",
-    time: parseInt(time, 10),
+    hour: parseInt(hour, 10),
     date: date
   })
   return record
