@@ -65,3 +65,9 @@ function findEmployeeByFirstName(array, firstName) {
        return firstName === element.firstName ? element : undefined
     }
 }
+
+function calculatePayroll(array) {
+  return array.reduce(function(memo, rec){
+          return memo + allWagesFor(rec)
+      }, 0)
+}
