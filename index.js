@@ -53,3 +53,11 @@ function wagesEarnedOnDate(record, givenDate) {
   let wageEarned = hoursWorked * record.payPerHour
   return wageEarned
 }
+
+function allWagesFor(record) {
+  const dates = record.timeInEvents.map(element => element.date)
+  const allWages = dates.reduce(function(memo, element) {return memo + wagesEarnedOnDate(record, element)}, 0)
+  return allWages
+}
+
+
