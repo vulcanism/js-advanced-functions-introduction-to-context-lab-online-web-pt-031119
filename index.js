@@ -7,7 +7,7 @@ function createEmployeeRecord(array) {
     timeInEvents: [],
     timeOutEvents: []
   }
-  return employeeRecord;
+  return employeeRecord
 }
 
 function createEmployeeRecords(array) {
