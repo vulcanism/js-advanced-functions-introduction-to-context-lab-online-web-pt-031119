@@ -39,5 +39,5 @@ function createTimeOutEvent(record, dateTime) {
 }
 
 function hoursWorkedOnDate(employee, givenDate) {
-  
+
 }
