@@ -17,5 +17,5 @@ function createEmployeeRecords(array) {
 }
 
 function createTimeInEvent(record, dateTime) {
-  
+
 }
