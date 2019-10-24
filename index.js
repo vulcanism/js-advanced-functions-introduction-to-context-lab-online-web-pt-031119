@@ -15,3 +15,7 @@ function createEmployeeRecords(array) {
     return createEmployeeRecord(element)
   })
 }
+
+function createTimeInEvent(record, dateTime) {
+  
+}
